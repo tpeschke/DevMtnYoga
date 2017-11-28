@@ -1,0 +1,25 @@
+pwd			Shows where you are
+ls			Shows what's in folder
+cd <>			change directory
+	..		parent folder
+	../..		grandparent folder
+	.		folder you're in
+(first 3 letters) tab	auto-fill
+rv <>			remove file
+rv -rf			remove directory
+cp <> <>		copy <file/folder> <location>
+mkdir <>		makes new directory
+touch <>		makes files (don't for get extensions)
+clear			empties commandline
+mv <> <>		moves file <file> <location>
+			Can also be used to rename <old name> <new name>
+
+	You can wrap a name in ' ' so you can use spaces (include the file type in the quotations)
+
+GIT COMMANDS
+git status		shows what's tracked 
+git add <>		add files/folders to be tracked
+git commit		set's changes aside
+git push -m <>		saves all committed saves to hub <what was changed>
+git init		makes git track computer folder
+
