@@ -1,0 +1,23 @@
+You can wrap a name in ' ' so you can use spaces (include the file type in the quotations)
+
+GIT COMMANDS
+git status		shows what's tracked 
+git add <>		add files/folders to be tracked
+git commit		set's changes aside
+git push -m <>		saves all committed saves to hub <what was changed>
+git init		makes git track computer folder
+
+	Methods to get Repo
+1) Fork (opt)			copy a reop and makes it my own
+2) git clone (opt)		[url] - copies to wherever you are
+// make changes	
+3) git add .			tracks all documents
+4) git commit -m "message"	gets ready to push
+5) git push origin master	updates to github
+
+You can't directly clone a new git repo into an existing repo with this method
+
+git submodule add <url> <first git repo>/<new git repo>
+				^i.e., to put in Projects: Projects/JS-Array
+
+SS
