@@ -1,0 +1,52 @@
+header {
+    background-color: black;
+    width: 100%;
+    height: 100px;
+    padding: 24px;
+
+}
+
+.header1 {
+    background-color: white;
+    width:  150px;
+    height: 50px;
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.header2 {
+    background-color: white;
+    width:  200px;
+    height: 50px;
+    display: inline-block;
+    float: right;
+}
+
+body {
+    background-color: gray;
+}
+
+.top-section {
+    width: 940px;
+    height: 430px;
+    background: black;
+    margin: 100px auto;
+    text-align: center;
+    padding-top: 50px;
+}
+
+.box {
+    background: white;
+    border-radius: 32px;
+    height: 55px;
+    display: inline-block;
+    margin: 16px 0;
+}
+
+.one, .two {
+    width: 75%;
+}
+
+.three, .four {
+    width: 30%;
+}
