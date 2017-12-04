@@ -5,14 +5,17 @@ function countTheAnimals(animals) {
         fig.push(animals[key])      
     }
         fig
-        fig.forEach(function(val,i,arr){
-        var split = fig.split();
-        split[1] = split[1] * 2
-        split[2] = split[2] * 4
-        split[3] = split[3] * 8
-
-        split
+       
+        let temp = Number(fig[0]);
+        var newFig = fig.reduce(function(prev, item){
+           temp = temp + Number(item);  
+            return temp
         })
+
+        fig
+        newFig
+
+
 }
 
 countTheAnimals({aardvark: '1101', tiger: '1100', donkey: '1100', emu: '1010'})

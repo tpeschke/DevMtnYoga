@@ -1,10 +1,18 @@
 function isTuringEquation(s){
     
+  var str = s.split('').reverse().join("").split('=');
+  str
 
+  var end = str[0]);
+  var equa = eval(str[1]);
 
+  end == equa ? true : false;
+
+  end
+  equa
   }
 
 
 
-  isTuringEquation("07340000+069051=0335510" )
-  //true
+  isTuringEquation("0064630+0614300000=067893")
+  

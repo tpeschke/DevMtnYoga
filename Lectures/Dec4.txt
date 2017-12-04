@@ -1,0 +1,31 @@
+1. Clarify — Rewrite a one line description of what you're trying to accomplish.
+
+
+
+
+
+2. Sample data
+
+
+
+3. Sample solution
+
+
+
+4. Code constructs 
+	(look for patterns in question, ex: plural noun is probably an array; check whether x is greater than 15: if statement)
+
+
+
+5. Pseudo code
+	signature (name of function, params, data type, structure of return value)
+
+
+
+6. Solve
+
+git checkout Master
+git checkout -b <name of branch>
+git add .
+git commit -m ""
+git push origin <name of branch>

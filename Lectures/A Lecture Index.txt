@@ -1,2 +1,3 @@
 Nov 27		Commandline and Git commands
 Nov 28		Github walkthrough
+Dec 4		Problem Solving Steps, handling Git branches

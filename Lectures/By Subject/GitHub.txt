@@ -17,6 +17,15 @@ git init		makes git track computer folder
 
 You can't directly clone a new git repo into an existing repo with this method
 
+	Switching/Making Branches
+Switching:
+git checkout Master		switch to master
+git checkout -b <>		switch/make branch <name of branch>
+
+	Pushing Branch
+steps 3-4 are the same
+5) git push origin <>		<name of branch>	
+
 git submodule add <url> <first git repo>/<new git repo>
 				^i.e., to put in Projects: Projects/JS-Array
 
