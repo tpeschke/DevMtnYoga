@@ -15,3 +15,7 @@ mv <> <>		moves file <file> <location>
 			Can also be used to rename <old name> <new name>
 
 	You can wrap a name in ' ' so you can use spaces (include the file type in the quotations)
+
+npm install <>		<optional: name of package you want to install>
+npm init		make package.json
+npm init -y		make with all defaults accepted
